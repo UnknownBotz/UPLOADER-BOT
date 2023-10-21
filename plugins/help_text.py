@@ -47,8 +47,10 @@ async def start(bot, update):
                 [
                     InlineKeyboardButton(
                         "Owner", url="https://t.me/unknownBotz"
-                    )
-                    
+                    ),
+                    InlineKeyboardButton(" Why You are here ", url="https://t.me/unknownBotz"),
+                ],
+                [InlineKeyboardButton("Nothing", url="https://t.me/unknownBotz")],
                 ]
                 
         ),
